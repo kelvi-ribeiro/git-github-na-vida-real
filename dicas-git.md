@@ -20,4 +20,12 @@ g:Passar para o trecho anterior de código (modificado).
 s:Dividir trechos de código em partes (Dividindo por linha).
 e:Adicionar manualmente.
 
+git rebase -i HEAD~{numero-commits-deseja-ver}: Ao executar esse comando, é listado as seguintes opções:
+p:pick = use commit.
+r:rework = use commit, but edit the commit message.
+e:edit = use commit, but stop for amending.
+f:fixup = like "squash", but discards this commit's log message.
+x:exec = run command (the rest of the line) using shell.
+d:drop = remove commit.
+
 
