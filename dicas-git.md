@@ -28,4 +28,6 @@ f:fixup = like "squash", but discards this commit's log message.
 x:exec = run command (the rest of the line) using shell.
 d:drop = remove commit.
 
+git reset --hard origin/master: Reseta todos os commits local até o commit da master na nuvem, ou seja, descarta todos os commits locais em relação a branch na nuvem.
+
 
