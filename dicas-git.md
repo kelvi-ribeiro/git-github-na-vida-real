@@ -34,4 +34,6 @@ git commit --fixup {hash-commit}: Serve para fazer commits corretivos, assim que
 
 git rebase -i --autosquash {hash-commit}: Serve para juntar todos os commits corretivos. É importante destatacar que o hash deve ser do commit anterior de que se deseja ser feita a correção.
 
+git pull origin {branch} --rebase: Serve para resolver os conflitos com o repositório em nuvem.
+
 
