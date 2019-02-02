@@ -32,3 +32,6 @@ git reset --hard origin/master: Reseta todos os commits local até o commit da m
 
 git commit --fixup {hash-commit}: Serve para fazer commits corretivos, assim que for feito todos os commits corretivos, é usado o seguinte comando. OBS: o hash do commit deve ser o commit no qual se deseja ser feita o ommit corretivo.
 
+git rebase -i --autosquash {hash-commit}: Serve para juntar todos os commits corretivos. É importante destatacar que o hash deve ser do commit anterior de que se deseja ser feita a correção.
+
+
