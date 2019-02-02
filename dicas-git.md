@@ -38,4 +38,6 @@ git pull origin {branch} --rebase: Serve para resolver os conflitos com o reposi
 
 git merge --continue ou git merge --continue: Após corrigir os conflitos, salvar e jogar arquivos com confilots para o stage area, deverá ser executado esse comando para seja feito o merge.
 
+ git config --global help.autocorrect 1: Serve para configurar o git para quando for feito algum comando com errado, por exemplo "git startus", será executado automaticamente um comando parecido, no caso seria "git status".
+
 
