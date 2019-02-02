@@ -61,6 +61,8 @@ git shortlog -sn: Também é uma forma simplificada  dos logs, mostrando apenas 
 
 git log -3: Traz apenas os 3 últimos commits feitos.
 
+git reflog: Serve para ver um log mais profundo, vendo os merges, resets, reverts, cherry-pick, git-checkout. E com isso, podemos fazer algo muito útil, por exemplo, recuperar commits perdidos com o comando git reset --hard 
+
 https://git-scm.com/docs/git-log: Conteúdo para ter mais detalhes sobre os comandos para ver o log.
 
 
