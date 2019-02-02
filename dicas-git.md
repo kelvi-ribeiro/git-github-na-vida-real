@@ -1,8 +1,8 @@
 ## Dicas de Git
 
-Git reset: É usado para branchs separadas, pois evita commits sujos, porém, com isso, é perdido o histórico de rastreio do Git.
+git reset: É usado para branchs separadas, pois evita commits sujos, porém, com isso, é perdido o histórico de rastreio do Git.
 
-Git revert: É usado para casos em que é desejado que se mantenha o histórico de rastreio do git, ele cria um commit de revert, assim, mantendo o histórico de rastreio.
+git revert: É usado para casos em que é desejado que se mantenha o histórico de rastreio do git, ele cria um commit de revert, assim, mantendo o histórico de rastreio.
 
 git commit --amend: É ótimo alterações em nomes de commits, em casos criamos commits com nomes errados e queremos edita-lo. e também que inserir arquvios ou alterações em um commit anterior (Casos em que esquecemos algum arquivo no commit) !!IMPORTANTE: Em casos de alerações enviadas para o repositório na nuvem, seja ele qual for, devemos usas outras estratégias.
 
