@@ -40,4 +40,6 @@ git merge --continue ou git merge --continue: Após corrigir os conflitos, salva
 
  git config --global help.autocorrect 1: Serve para configurar o git para quando for feito algum comando com errado, por exemplo "git startus", será executado automaticamente um comando parecido, no caso seria "git status".
 
+ git archive {branch} --format={format} --output={nome-arquivo-saida}: Serve para transformar todos os arquivos de uma branch para um arquivo zipado, é usado para casos onde se deseja disponibilizar um projeto com git, mas algumas pessoas não sabem como usa-lo
+
 
