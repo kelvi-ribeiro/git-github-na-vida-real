@@ -36,4 +36,6 @@ git rebase -i --autosquash {hash-commit}: Serve para juntar todos os commits cor
 
 git pull origin {branch} --rebase: Serve para resolver os conflitos com o repositório em nuvem.
 
+git merge --continue: Após corrigir os conflitos, salvar e jogar arquivos com confilots para o stage area, deverá ser executado esse comando para seja feito o merge.
+
 
