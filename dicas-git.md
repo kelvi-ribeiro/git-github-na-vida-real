@@ -46,6 +46,23 @@ git merge --continue ou git merge --continue: Após corrigir os conflitos, salva
  'git log --pretty=oneline --graph',
  'git log --pretty=oneline --graph --all'
  ] São comandos usados para ter um saída mais personificada depdendendo da necessidade para ver o log dos commits.
- 
+
+ git log --since='{data-commit}': Serve para ver todos os commits desde aquela data, todos os anteriores serão ignorados. Exemplo de como por uma data:'Jan 1 2019'.
+
+ git log --until='{data-commit}': Serve para ver todos os commits até aquela data, todos os posteriores serão ignorados. Exemplo de como por uma data:'Jan 1 2019'.
+
+ git log --until='{data-commit}' --since='{data-commit}': Os dois comandos acima podem ser usados em conjunto, para criar um intervalo de tempo por exemplo, um início e fim de como será o filtro baseado nas datas colocadas por parâmetro.
+
+ git log --author='{nome-author}': Serve para filtrar todos os commits por Author.
+
+git shortlog: Serve para ter uma saída simplificada dos logs, mostrando apenas o author, números de commits e as mensagens de commits mais recentes.
+
+git shortlog -sn: Também é uma forma simplificada  dos logs, mostrando apenas o nome de cada author e o número total de commits, respectivamente.
+
+git log -3: Traz apenas os 3 últimos commits feitos.
+
+https://git-scm.com/docs/git-log: Conteúdo para ter mais detalhes sobre os comandos para ver o log.
+
+
 
 
