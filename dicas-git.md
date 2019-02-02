@@ -30,4 +30,5 @@ d:drop = remove commit.
 
 git reset --hard origin/master: Reseta todos os commits local até o commit da master na nuvem, ou seja, descarta todos os commits locais em relação a branch na nuvem.
 
+git commit --fixup {hash-commit}: Serve para fazer commits corretivos, assim que for feito todos os commits corretivos, é usado o seguinte comando. OBS: o hash do commit deve ser o commit no qual se deseja ser feita o ommit corretivo.
 
