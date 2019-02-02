@@ -42,4 +42,10 @@ git merge --continue ou git merge --continue: Após corrigir os conflitos, salva
 
  git archive {branch} --format={format} --output={nome-arquivo-saida}: Serve para transformar todos os arquivos de uma branch para um arquivo zipado, é usado para casos onde se deseja disponibilizar um projeto com git, mas algumas pessoas não sabem como usa-lo
 
+ ['git log --pretty=oneline',
+ 'git log --pretty=oneline --graph',
+ 'git log --pretty=oneline --graph --all'
+ ] São comandos usados para ter um saída mais personificada depdendendo da necessidade para ver o log dos commits.
+ 
+
 
