@@ -2236,18 +2236,18 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
-/* One */
+/* quem-sou */
 
-	#one {
+	#quem-sou {
 		background: url("images/overlay.png"), url("../../images/intro-2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Two */
+/* o-que-faco */
 
-	#two {
+	#o-que-faco {
 		background: url("images/overlay.png"), url("../../images/intro-technology-3.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
