@@ -68,6 +68,8 @@ https://git-scm.com/docs/git-log: Conteúdo para ter mais detalhes sobre os coma
 
 git reflog: Serve para ver um log mais profundo, vendo os merges, resets, reverts, cherry-pick, git-checkout. E com isso, podemos fazer algo muito útil, por exemplo, recuperar commits perdidos com o comando git reset --hard. Mais detalhes sobre esse comando em https://git-scm.com/docs/git-reflog
 
+git push origin master --tags: Comando para apos uma criação e finalização de um release, enviar para o repositório em nuvem.
+
 
 
 
